@@ -1,0 +1,28 @@
+package com.practice;
+import java.util.Scanner;
+
+public class StringsPRactice {
+    public static void main(String[] args){
+        System.out.println("Strings Practice with input from user");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the Name or Line");
+        String name = sc.nextLine();
+        System.out.println("the length of character is ");
+        System.out.println(name.length());
+
+        System.out.println(name.equals("chitransh"));
+        System.out.println(name.replace("bad","good"));
+
+
+
+
+
+
+
+
+
+
+
+
+    }
+}
